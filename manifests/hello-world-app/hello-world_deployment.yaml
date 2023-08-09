@@ -22,10 +22,10 @@ spec:
         volumeMounts:
           - name: config-vol
             mountPath: /etc/nginx/
-      volumes:
-        - name: config-vol
-          configMap:
-            name: nginx-config
-            items:
-              - key: nginx.conf
-                path: nginx.conf
+      #volumes:
+      #  - name: config-vol
+      #    configMap:
+      #      name: nginx-config
+      #      items:
+      #        - key: nginx.conf
+      #          path: nginx.conf
