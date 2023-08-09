@@ -19,9 +19,9 @@ spec:
         ports:
         - containerPort: 80
           name: web
-        volumeMounts:
-          - name: config-vol
-            mountPath: /etc/nginx/
+      #  volumeMounts:
+      #    - name: config-vol
+      #      mountPath: /etc/nginx/
       #volumes:
       #  - name: config-vol
       #    configMap:
